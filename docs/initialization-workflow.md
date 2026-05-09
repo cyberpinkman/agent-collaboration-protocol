@@ -5,6 +5,7 @@
 This workflow describes how to start a new project with the Agent Collaboration Protocol.
 
 It is the bridge from the reusable protocol repo to a concrete project repository.
+For a task-oriented version, use `docs/new-project-checklist.md`.
 
 ## Outcome
 
@@ -102,4 +103,3 @@ The initialization workflow is good enough when:
 - the first execution task can be written without rereading the core protocol repeatedly
 - the project adapter is the single source of repository-specific context
 - future handoffs can start from `next.md` without searching through chat history
-

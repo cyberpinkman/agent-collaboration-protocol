@@ -33,11 +33,21 @@ Phase 3 defines the initialization workflow for starting a new project with this
 - how the core protocol and project adapter are wired together
 - the minimum handoff structure needed before the first execution task
 
+## Phase 4
+
+Phase 4 turns the initialization workflow into a practical new-project checklist:
+
+- a single ordered checklist for starting a project
+- clear go/no-go gates before the first execution task
+- a repeatable handoff sequence for project setup
+- a quick reference that future repos can copy as-is
+
 ## Repository Layout
 
 - `docs/` - protocol specification and contracts
 - `docs/project-adapter-spec.md` - project adapter normative spec
 - `docs/initialization-workflow.md` - how to bootstrap a new project
+- `docs/new-project-checklist.md` - practical startup checklist
 - `templates/` - starter files for new projects
 - `examples/` - example adapter and instance layout
 
