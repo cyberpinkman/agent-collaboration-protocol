@@ -12,6 +12,7 @@ Phase 1 establishes the smallest reusable core:
 - task/result/review contracts
 - a project adapter template
 - a minimal repository scaffold that can be reused across projects
+- a clear boundary document for where the protocol applies and where it does not
 
 ## Repository Layout
 
