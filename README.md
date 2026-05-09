@@ -24,10 +24,20 @@ Phase 2 defines the richer project adapter spec that maps the generic protocol o
 - handoff contacts and review focus
 - the template shape future projects should copy
 
+## Phase 3
+
+Phase 3 defines the initialization workflow for starting a new project with this protocol:
+
+- repository bootstrap steps
+- starter files to copy into a fresh project
+- how the core protocol and project adapter are wired together
+- the minimum handoff structure needed before the first execution task
+
 ## Repository Layout
 
 - `docs/` - protocol specification and contracts
 - `docs/project-adapter-spec.md` - project adapter normative spec
+- `docs/initialization-workflow.md` - how to bootstrap a new project
 - `templates/` - starter files for new projects
 - `examples/` - example adapter and instance layout
 

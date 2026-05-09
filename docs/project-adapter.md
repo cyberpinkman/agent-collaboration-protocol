@@ -3,6 +3,7 @@
 The project adapter is the layer that turns the generic protocol into a specific project workflow.
 
 Use `docs/project-adapter-spec.md` as the normative specification for how adapters should be structured.
+Use `docs/initialization-workflow.md` for the sequence that turns the spec into a real project setup.
 
 ## Adapter Responsibilities
 
