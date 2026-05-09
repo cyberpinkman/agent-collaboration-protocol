@@ -1,0 +1,10 @@
+{
+  "name": "agent-collaboration-protocol",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init:new-project": "node scripts/init-new-project.mjs"
+  }
+}
+

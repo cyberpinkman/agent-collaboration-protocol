@@ -42,6 +42,16 @@ Phase 4 turns the initialization workflow into a practical new-project checklist
 - a repeatable handoff sequence for project setup
 - a quick reference that future repos can copy as-is
 
+## Phase 5
+
+Phase 5 adds a minimal initializer that can scaffold a new project from the starter template:
+
+- a Node-based bootstrap command
+- automatic copying of the starter project structure
+- basic placeholder filling for the project adapter and next step
+- a lightweight entry point for future automation
+- `npm run init:new-project -- --target <dir> --name <project-name>`
+
 ## Repository Layout
 
 - `docs/` - protocol specification and contracts
@@ -50,6 +60,8 @@ Phase 4 turns the initialization workflow into a practical new-project checklist
 - `docs/new-project-checklist.md` - practical startup checklist
 - `templates/` - starter files for new projects
 - `examples/` - example adapter and instance layout
+- `scripts/` - initialization scripts
+- `docs/scaffold-generator.md` - generator scope and interface
 
 ## Design Principles
 

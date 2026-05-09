@@ -12,6 +12,7 @@ Use this checklist when starting a new repository with the Agent Collaboration P
 ## Bootstrap The Repo
 
 - [ ] Create or clone the new repository.
+- [ ] Run the initializer: `npm run init:new-project -- --target <dir> --name <project-name>`.
 - [ ] Add a `README.md` for the project.
 - [ ] Add a `.agent/` directory or establish the equivalent protocol location.
 - [ ] Make the core protocol files available to the project.
@@ -58,4 +59,3 @@ Use this checklist when starting a new repository with the Agent Collaboration P
 - [ ] A new contributor can orient themselves from the adapter and checklist alone.
 - [ ] The repository can move from setup to execution without inventing new file roles.
 - [ ] The first handoff is small, explicit, and reviewable.
-
