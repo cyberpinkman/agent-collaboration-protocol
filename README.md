@@ -14,9 +14,20 @@ Phase 1 establishes the smallest reusable core:
 - a minimal repository scaffold that can be reused across projects
 - a clear boundary document for where the protocol applies and where it does not
 
+## Phase 2
+
+Phase 2 defines the richer project adapter spec that maps the generic protocol onto a concrete repository:
+
+- required adapter fields
+- project-specific command and verification mapping
+- durable constraints and high-risk areas
+- handoff contacts and review focus
+- the template shape future projects should copy
+
 ## Repository Layout
 
 - `docs/` - protocol specification and contracts
+- `docs/project-adapter-spec.md` - project adapter normative spec
 - `templates/` - starter files for new projects
 - `examples/` - example adapter and instance layout
 
@@ -26,4 +37,3 @@ Phase 1 establishes the smallest reusable core:
 - Put project-specific facts in adapters, not in the core protocol.
 - Make handoffs explicit and reviewable.
 - Prefer small, bounded phases with clear acceptance criteria.
-

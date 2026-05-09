@@ -2,6 +2,8 @@
 
 The project adapter is the layer that turns the generic protocol into a specific project workflow.
 
+Use `docs/project-adapter-spec.md` as the normative specification for how adapters should be structured.
+
 ## Adapter Responsibilities
 
 - Define project purpose and scope.
@@ -15,4 +17,4 @@ The project adapter is the layer that turns the generic protocol into a specific
 - Keep project facts out of the core protocol.
 - Update the adapter when project structure or verification changes.
 - Treat the adapter as the bridge between the generic protocol and the current repo.
-
+- Keep the adapter rich enough to be useful, but not so broad that it becomes a project README substitute.
